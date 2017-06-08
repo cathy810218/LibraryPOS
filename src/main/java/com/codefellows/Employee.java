@@ -6,8 +6,8 @@ package com.codefellows;
 public class Employee extends Person {
     public String title;
 
-    public Employee() {
-        super();
+    public Employee(String firstName, String lastName, int age) {
+        super(firstName,lastName,age);
     }
 
     public void doWork() {

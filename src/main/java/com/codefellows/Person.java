@@ -9,7 +9,7 @@ public class Person {
     public int age;
 
     // default constructor
-    public Person() {
+    private Person() {
 
     }
 
@@ -21,5 +21,10 @@ public class Person {
 
     public String fullName() {
         return firstName + lastName;
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + " with age: " + age;
     }
 }
