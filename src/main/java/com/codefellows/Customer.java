@@ -6,11 +6,7 @@ package com.codefellows;
 public class Customer extends Person {
     public int age;
     public Customer(String firstName, String lastName, int age) {
-        super(firstName,lastName,age);
-    }
-
-    public void doWork() {
-        System.out.println("Shopping!");
+        super(firstName, lastName, age);
     }
 
     @Override
