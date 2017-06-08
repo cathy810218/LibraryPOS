@@ -14,4 +14,19 @@ public class Developer extends Employee {
         super.doWork();
         System.out.println("Coding");
     }
+
+    @Override
+    void eat() {
+        System.out.println("Sandwiches");
+    }
+
+    @Override
+    void drink() {
+        System.out.println("Coffee");
+    }
+
+    @Override
+    void rest() {
+        System.out.println("No rest");
+    }
 }

@@ -12,6 +12,8 @@ public class App
         Developer dev1 = new Developer("Cathy","Oun",25);
         System.out.println(dev1.toString() + " job title: " + dev1.jobTitle() + " with salary: " + dev1.salary());
         dev1.doWork();
+        dev1.eat();
+        dev1.drink();
         System.out.println();
 
         Designer designer1 = new Designer("Shelly", "Oun", 26);
