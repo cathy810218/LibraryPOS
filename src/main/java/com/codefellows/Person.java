@@ -9,7 +9,7 @@ public class Person extends Life {
     public int age;
 
     // default constructor
-    private Person() {
+    public Person() {
 
     }
 

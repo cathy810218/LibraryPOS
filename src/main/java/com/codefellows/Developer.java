@@ -9,6 +9,9 @@ public class Developer extends Employee {
         super(firstName, lastName, age, JobType.Developer);
     }
 
+    public Developer() {
+        super();
+    }
     @Override
     public void doWork() {
         super.doWork();

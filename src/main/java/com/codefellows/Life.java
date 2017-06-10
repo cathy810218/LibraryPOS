@@ -2,6 +2,7 @@ package com.codefellows;
 
 /**
  * Created by cathyoun on 6/7/17.
+ * Abstract Factory
  */
 public abstract class Life {
     abstract void eat();

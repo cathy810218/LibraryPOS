@@ -5,6 +5,10 @@ package com.codefellows;
  */
 public class Designer extends Employee {
 
+    public Designer() {
+        super();
+    }
+
     public Designer(String firstName, String lastName, int age) {
         super(firstName, lastName, age, JobType.Desinger);
     }
